@@ -11,6 +11,23 @@
     "rss": "https://westeroscraft.com/articles/index.rss",
     "servers": [
         {
+            "id": "The-Combo-Crew-1.12.2",
+            "name": "The Combo Crew Server",
+            "description": "The official-unofficial server of the Combo Crew",
+            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
+            "version": "1.0.0",
+            "address": "crew.foga.space",
+            "minecraftVersion": "1.12.2",
+            "discord": {
+                "shortId": "Production",
+                "largeImageText": "The Combo Crew Server",
+                "largeImageKey": "server-prod"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": []
+        },
+        {
             "id": "WesterosCraft-1.11.2",
             "name": "WesterosCraft Production Server",
             "description": "Main WesterosCraft server. Connect to enter the Realm.",
@@ -23,7 +40,7 @@
                 "largeImageText": "WesterosCraft Production Server",
                 "largeImageKey": "server-prod"
             },
-            "mainServer": true,
+            "mainServer": false,
             "autoconnect": true,
             "modules": [
                 {
