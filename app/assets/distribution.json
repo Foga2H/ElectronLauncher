@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "discord": {
         "clientId": "385581240906022916",
         "smallImageText": "WesterosCraft",
@@ -15,7 +15,7 @@
             "name": "The Combo Crew Server",
             "description": "The official-unofficial server of the Combo Crew",
             "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "address": "crew.foga.space",
             "minecraftVersion": "1.12.2",
             "discord": {
@@ -57,93 +57,93 @@
                             }
                         },
                         {
-                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
+                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3",
                             "name": "Minecraft Forge (akka-actor)",
                             "type": "Library",
                             "artifact": {
-                                "size": 746612,
-                                "MD5": "25cb22c3078e9fb3f7a861c912924862",
-                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/akka-actor_2.11-2.3.3.jar.pack.xz"
+                                "size": 2514991,
+                                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/akka-actor_2.11-2.3.3.jar"
                             }
                         },
                         {
-                            "id": "com.typesafe:config:1.2.1@jar.pack.xz",
+                            "id": "com.typesafe:config:1.2.1",
                             "name": "Minecraft Forge (typesafe-config)",
                             "type": "Library",
                             "artifact": {
-                                "size": 56636,
-                                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
-                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/config-1.2.1.jar.pack.xz"
+                                "size": 219554,
+                                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/config-1.2.1.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
+                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
                             "name": "Minecraft Forge (scala-actors-migration)",
                             "type": "Library",
                             "artifact": {
-                                "size": 21324,
-                                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
-                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
+                                "size": 58018,
+                                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-actors-migration_2.11-1.1.0.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
+                            "id": "org.scala-lang:scala-compiler:2.11.1",
                             "name": "Minecraft Forge (scala-compiler)",
                             "type": "Library",
                             "artifact": {
-                                "size": 3076920,
-                                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
-                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-compiler-2.11.1.jar.pack.xz"
+                                "size": 13449765,
+                                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-compiler-2.11.1.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
+                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
                             "name": "Minecraft Forge (scala-continuations-library)",
                             "type": "Library",
                             "artifact": {
-                                "size": 7956,
-                                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
-                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
+                                "size": 25365,
+                                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-continuations-library_2.11-1.0.2.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
+                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
                             "name": "Minecraft Forge (scala-continuations-plugin)",
                             "type": "Library",
                             "artifact": {
-                                "size": 46140,
-                                "MD5": "a8232db22a72a981de6b1399eb86dff7",
-                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
+                                "size": 206575,
+                                "MD5": "359c4a6743a082c689039482eed78670",
+                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-continuations-plugin_2.11.1-1.0.2.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
+                            "id": "org.scala-lang:scala-library:2.11.1",
                             "name": "Minecraft Forge (scala-library)",
                             "type": "Library",
                             "artifact": {
-                                "size": 1474672,
-                                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
-                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-library-2.11.1.jar.pack.xz"
+                                "size": 5538130,
+                                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-library-2.11.1.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
+                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
                             "name": "Minecraft Forge (scala-parser-combinators)",
                             "type": "Library",
                             "artifact": {
-                                "size": 85568,
-                                "MD5": "2e50a7df17680daadacca69f07f8a16d",
-                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
+                                "size": 430211,
+                                "MD5": "64303712d79bc33e2617aa53c835d15c",
+                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-parser-combinators_2.11-1.0.1.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
+                            "id": "org.scala-lang:scala-reflect:2.11.1",
                             "name": "Minecraft Forge (scala-reflect)",
                             "type": "Library",
                             "artifact": {
-                                "size": 1070312,
-                                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
-                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-reflect-2.11.1.jar.pack.xz"
+                                "size": 4372892,
+                                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-reflect-2.11.1.jar"
                             }
                         },
                         {
@@ -157,13 +157,13 @@
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
+                            "id": "org.scala-lang:scala-xml_2.11:1.0.2",
                             "name": "Minecraft Forge (scala-xml)",
                             "type": "Library",
                             "artifact": {
-                                "size": 217812,
-                                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
-                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-xml_2.11-1.0.2.jar.pack.xz"
+                                "size": 648678,
+                                "MD5": "fd944bde9e0013af0092e1d3a2a774e9",
+                                "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/forge/scala-xml_2.11-1.0.2.jar"
                             }
                         },
                         {
@@ -239,13 +239,13 @@
                     }
                 },
                 {
-                    "id": "TheRealp455w0rd:DankNull:1.4.43",
+                    "id": "TheRealp455w0rd:DankNull:1.4.46",
                     "name": "DankNull",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 311769,
-                        "MD5": "7c9c025a07d5798ba747d54ef632fb46",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/DankNull-1.12-1.4.43.jar"
+                        "size": 312081,
+                        "MD5": "1e0621587893cc65965bab3c2a573a78",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/DankNull-1.12-1.4.46.jar"
                     }
                 },
                 {
@@ -452,13 +452,13 @@
                     }
                 },
                 {
-                    "id": "net.industrial:cctweaked:1.82.3",
+                    "id": "net.industrial:cctweaked:1.82.2",
                     "name": "CC Tweaked",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 1694402,
-                        "MD5": "01a12290908144ea522c3487eb0d6353",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/cc-tweaked-1.12.2-1.82.3.jar"
+                        "size": 1693149,
+                        "MD5": "848907a852e4e9cd7a60b8ed804d55b7",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/cc-tweaked-1.12.2-1.82.2.jar"
                     }
                 },
                 {
@@ -469,6 +469,16 @@
                         "size": 113639,
                         "MD5": "f8688d831d271079075c6f695c63f605",
                         "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/Charset-Crafting-0.5.5.7.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:computronics:1.6.6",
+                    "name": "Computronics",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1291533,
+                        "MD5": "5e88b6e4939690a2067bf31f870a5577",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/Computronics-1.12.2-1.6.6.jar"
                     }
                 },
                 {
@@ -513,13 +523,13 @@
                     }
                 },
                 {
-                    "id": "net.industrial:YABBA:1.1.2.51",
+                    "id": "net.industrial:YABBA:1.1.2.48",
                     "name": "YABBA",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 231457,
-                        "MD5": "3d8deb5a3b5d62381504d561e50c98dd",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/YABBA-1.1.2.51.jar"
+                        "size": 225922,
+                        "MD5": "d0df334c341a08d662721562b878da0c",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/YABBA-1.1.2.48.jar"
                     }
                 },
                 {
@@ -833,13 +843,13 @@
                     }
                 },
                 {
-                    "id": "net.industrial:thaumicenergistics:2.2.2",
+                    "id": "net.industrial:thaumicenergistics:2.2.1",
                     "name": "ThaumicEnergistics",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 617007,
-                        "MD5": "49fda2565d2d0b7ab44a8d0184920d33",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/thaumicenergistics-2.2.2.jar"
+                        "size": 615430,
+                        "MD5": "82cdb24442340734a14f93cbc2c46c52",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/thaumicenergistics-2.2.1.jar"
                     }
                 },
                 {
@@ -943,13 +953,13 @@
                     }
                 },
                 {
-                    "id": "net.industrial:SimpleCorn:1.12-1.12-2.5.9",
+                    "id": "net.industrial:SimpleCorn:1.12-2.5.2",
                     "name": "SimpleCorn",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 86785,
-                        "MD5": "ff29095190bf72d66129dd80a7257661",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/SimpleCorn1.12-1.12-2.5.9.jar"
+                        "size": 79743,
+                        "MD5": "0b93a038287e299ca7a66e5048de4ebf",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/SimpleCorn1.12-2.5.2.jar"
                     }
                 },
                 {
@@ -1083,7 +1093,7 @@
                     }
                 },
                 {
-                    "id": "net.industrial:ProjectRed:1.12.2-4.9.1.92-base",
+                    "id": "net.industrial:ProjectRedBase:1.12.2-4.9.1.92",
                     "name": "ProjectRedBase",
                     "type": "ForgeMod",
                     "artifact": {
@@ -1093,47 +1103,17 @@
                     }
                 },
                 {
-                    "id": "net.industrial:ProjectRed:1.12.2-4.9.1.92-world",
-                    "name": "ProjectRedWorld",
+                    "id": "net.industrial:ProjectRedCompat:1.12.2-4.9.1.92",
+                    "name": "ProjectRedCompat",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 501254,
-                        "MD5": "6d048f2e2eff31376f0f6668e761f5d5",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ProjectRed-1.12.2-4.9.1.92-world.jar"
+                        "size": 62460,
+                        "MD5": "850041255fa6b555f4f4c53c26dc9f08",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ProjectRed-1.12.2-4.9.1.92-compat.jar"
                     }
                 },
                 {
-                    "id": "net.industrial:ProjectRed:1.12.2-4.9.1.92-mechanical",
-                    "name": "ProjectRedMechanical",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 2586694,
-                        "MD5": "206c601a3800e3ff0e21763f2e9e8b9c",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ProjectRed-1.12.2-4.9.1.92-mechanical.jar"
-                    }
-                },
-                {
-                    "id": "net.industrial:ProjectRed:1.12.2-4.9.1.92-lighting",
-                    "name": "ProjectRedLighting",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 724243,
-                        "MD5": "730390ea1cb64c8bc50c98bcd8ed6b8c",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ProjectRed-1.12.2-4.9.1.92-lighting.jar"
-                    }
-                },
-                {
-                    "id": "net.industrial:ProjectRed:1.12.2-4.9.1.92-integration",
-                    "name": "ProjectRedIntegration",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 3921871,
-                        "MD5": "b09e19b2005c2c48fd3001703d3e425d",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ProjectRed-1.12.2-4.9.1.92-integration.jar"
-                    }
-                },
-                {
-                    "id": "net.industrial:ProjectRed:1.12.2-4.9.1.92-fabrication",
+                    "id": "net.industrial:ProjectRedFabrication:1.12.2-4.9.1.92",
                     "name": "ProjectRedFabrication",
                     "type": "ForgeMod",
                     "artifact": {
@@ -1143,13 +1123,43 @@
                     }
                 },
                 {
-                    "id": "net.industrial:ProjectRed:1.12.2-4.9.1.92-compat",
-                    "name": "ProjectRedCompat",
+                    "id": "net.industrial:ProjectRedIntegration:1.12.2-4.9.1.92",
+                    "name": "ProjectRedIntegration",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 62460,
-                        "MD5": "850041255fa6b555f4f4c53c26dc9f08",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ProjectRed-1.12.2-4.9.1.92-compat.jar"
+                        "size": 3921871,
+                        "MD5": "b09e19b2005c2c48fd3001703d3e425d",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ProjectRed-1.12.2-4.9.1.92-integration.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:ProjectRedLighting:1.12.2-4.9.1.92",
+                    "name": "ProjectRedLighting",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 724243,
+                        "MD5": "730390ea1cb64c8bc50c98bcd8ed6b8c",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ProjectRed-1.12.2-4.9.1.92-lighting.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:ProjectRedMechanical:1.12.2-4.9.1.92",
+                    "name": "ProjectRedMechanical",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2586694,
+                        "MD5": "206c601a3800e3ff0e21763f2e9e8b9c",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ProjectRed-1.12.2-4.9.1.92-mechanical.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:ProjectRedWorld:1.12.2-4.9.1.92",
+                    "name": "ProjectRedWorld",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 501254,
+                        "MD5": "6d048f2e2eff31376f0f6668e761f5d5",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ProjectRed-1.12.2-4.9.1.92-world.jar"
                     }
                 },
                 {
@@ -1173,13 +1183,13 @@
                     }
                 },
                 {
-                    "id": "net.industrial:plethora:1.12.2-1.2.0",
+                    "id": "net.industrial:plethora:1.12.2-1.1.13",
                     "name": "PlethoraPeripherals",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 1076554,
-                        "MD5": "5f1005dfe531ef275cf06d5a2f520057",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/plethora-1.12.2-1.2.0.jar"
+                        "size": 987492,
+                        "MD5": "aa70d19735db9794e11cd72fabffc0a2",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/plethora-1.12.2-1.1.13.jar"
                     }
                 },
                 {
@@ -1243,13 +1253,13 @@
                     }
                 },
                 {
-                    "id": "net.industrial:Numina:1.12.2-1.0.37",
+                    "id": "net.industrial:Numina:1.12.2-1.0.36",
                     "name": "Numina",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 1013054,
-                        "MD5": "bdc24732cf6baece5bff63cbddd22e9a",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/Numina-1.12.2-1.0.37.jar"
+                        "size": 1011743,
+                        "MD5": "2632320ddfd2575c9c801d8c3abe8091",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/Numina-1.12.2-1.0.36.jar"
                     }
                 },
                 {
@@ -1366,13 +1376,13 @@
                     }
                 },
                 {
-                    "id": "net.industrial:ModularPowersuits:1.12.2-1.0.40",
+                    "id": "net.industrial:ModularPowersuits:1.12.2-1.0.39",
                     "name": "ModularPowersuits",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 2558497,
-                        "MD5": "80fc18a2c4ce4637a5cb2c1595da6bc7",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ModularPowersuits-1.12.2-1.0.40.jar"
+                        "size": 2558290,
+                        "MD5": "3b355b1bb70524d4203542d401fc296b",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ModularPowersuits-1.12.2-1.0.39.jar"
                     }
                 },
                 {
@@ -1666,23 +1676,33 @@
                     }
                 },
                 {
-                    "id": "net.industrial:Fancy-Fluid-Storage:1.12-2.1.3",
-                    "name": "FancyFluidStorage",
+                    "id": "net.industrial:jee:1.12.2-1.0.6",
+                    "name": "JustEnoughEnergistics",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 397385,
-                        "MD5": "b869b5c05e86b64d297e67c6a95a87a6",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/Fancy%2BFluid%2BStorage-1.12-2.1.3.jar"
+                        "size": 19347,
+                        "MD5": "721b76c9f63d80bdd92719bac710f299",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/JustEnoughEnergistics-1.12.2-1.0.6.jar"
                     }
                 },
                 {
-                    "id": "net.industrial:FastWorkbench:1.12.2-1.7.0",
+                    "id": "net.industrial:Fancy-Fluid-Storage:1.12.2-2.2.4",
+                    "name": "FancyFluidStorage",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 272933,
+                        "MD5": "12f7f9d152b35ec56f5d8b992c940e59",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/Fancy%20Fluid%20Storage-1.12.2-2.2.4.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:FastWorkbench:1.12.2-1.6.1",
                     "name": "FastWorkbench",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 26289,
-                        "MD5": "a34b6a3e65e2b6d7de53b360c8320192",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/FastWorkbench-1.12.2-1.7.0.jar"
+                        "size": 25532,
+                        "MD5": "87a684cc584e6c04105a5e34c7cfaac7",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/FastWorkbench-1.12.2-1.6.1.jar"
                     }
                 },
                 {
@@ -1706,13 +1726,13 @@
                     }
                 },
                 {
-                    "id": "net.industrial:energyconverters:1.12.1-1.0.1.2",
+                    "id": "net.industrial:energyconverters:1.12.2-1.2.1.11",
                     "name": "EnergyConverters",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 158392,
-                        "MD5": "858ad616671bbdea2397c9b4165e47d1",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/energyconverters_1.12.1-1.0.1.2.jar"
+                        "size": 162345,
+                        "MD5": "4bc16740be27186f3302746ea3317926",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/energyconverters_1.12.2-1.2.1.11.jar"
                     }
                 },
                 {
