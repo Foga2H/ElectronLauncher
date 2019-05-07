@@ -1,14 +1,14 @@
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "385581240906022916",
-        "smallImageText": "WesterosCraft",
-        "smallImageKey": "seal-circle"
+        "clientId": "575415568761618461",
+        "smallImageText": "The Combo Crew Launcher",
+        "smallImageKey": "launcher-icon"
     },
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
     },
-    "rss": "https://westeroscraft.com/articles/index.rss",
+    "rss": "http://crew.foga.space/files/minecraft/1.12.2/news.json",
     "servers": [
         {
             "id": "The-Combo-Crew-1.12.2",
@@ -19,12 +19,12 @@
             "address": "crew.foga.space",
             "minecraftVersion": "1.12.2",
             "discord": {
-                "shortId": "Production",
-                "largeImageText": "The Combo Crew Server",
-                "largeImageKey": "server-prod"
+                "shortId": "Minecraft 1.12.2",
+                "largeImageText": "The Combo Crew Launcher",
+                "largeImageKey": "launcher-icon"
             },
             "mainServer": true,
-            "autoconnect": false,
+            "autoconnect": true,
             "modules": [
                 {
                     "id": "net.minecraftforge:forge:1.12.2-14.23.5.2836",
@@ -239,13 +239,13 @@
                     }
                 },
                 {
-                    "id": "TheRealp455w0rd:DankNull:1.4.46",
-                    "name": "DankNull",
+                    "id": "net.industrial:DankNull:1.12-1.4.43",
+                    "name": "dank/null",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 312081,
-                        "MD5": "1e0621587893cc65965bab3c2a573a78",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/DankNull-1.12-1.4.46.jar"
+                        "size": 311769,
+                        "MD5": "7c9c025a07d5798ba747d54ef632fb46",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/DankNull-1.12-1.4.43.jar"
                     }
                 },
                 {
@@ -1626,16 +1626,6 @@
                     }
                 },
                 {
-                    "id": "net.industrial:Voice-Chat-Reloaded:1.0.1",
-                    "name": "VoiceChat",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 423788,
-                        "MD5": "3b71337a07675a38b5aadd1e2dbfab73",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/Voice%2BChat%2BReloaded-1.0.1.jar"
-                    }
-                },
-                {
                     "id": "net.industrial:FTBUtilitiesBackups:1.0.0.3",
                     "name": "FTBUtilitiesBackups",
                     "type": "ForgeMod",
@@ -1873,6 +1863,86 @@
                         "size": 73134,
                         "MD5": "bcfbc1b879fd0d06443ac9ca2774a5a0",
                         "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/CompactSolars-1.12.2-5.0.18.341-universal.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:tmel:1.12.2-1.3.2.2",
+                    "name": "TooManyEfficiencyLosses",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 17403,
+                        "MD5": "9940d3c51cae71ce4faacdc59d65dcf1",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/tmel-1.12.2-1.3.2.2.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:prefab:1.3.0.26",
+                    "name": "Prefab",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3254394,
+                        "MD5": "b04ab07f8942e991837b0f91819a2ad2",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/prefab-1.3.0.26.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:refinedstorageaddons:0.4.4",
+                    "name": "RefinedStorageAddons",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 26716,
+                        "MD5": "02f8fd1407f45dea8bd58e7eefc56b1c",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/refinedstorageaddons-0.4.4.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:refinedstorage:1.6.14",
+                    "name": "RefinedStorage",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1910269,
+                        "MD5": "1591adeb14e4430335a32ce5b7e1c1cd",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/refinedstorage-1.6.14.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:SolarFluxReborn:1.12.2-4.32",
+                    "name": "SolarFluxReborn",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 674781,
+                        "MD5": "012bbcb9efe465f1881a1ce521e322b4",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/SolarFluxReborn_1.12.2-4.32r.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:fairylights:2.1.6-1.12.2",
+                    "name": "FairyLights",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1149732,
+                        "MD5": "ade7cf6967d8fe9c2534c0635f63efe3",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/fairylights-2.1.6-1.12.2.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:MysticalAgriculture:1.12.2-1.7.5",
+                    "name": "MysticalAgriculture",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1536124,
+                        "MD5": "b7b81747d20baf1c5547ee302bad1420",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/MysticalAgriculture-1.12.2-1.7.5.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:Cucumber:1.12.2-1.1.3",
+                    "name": "Cucumber-UwU",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 126699,
+                        "MD5": "0018d8de31b05dc44c80a25d73fde15b",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/Cucumber-1.12.2-1.1.3.jar"
                     }
                 }
             ]
