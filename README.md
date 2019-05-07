@@ -19,10 +19,6 @@ You can download from [GitHub Releases](https://github.com/Foga2H/TheComboCrewLa
 
 If you download from the [Releases](https://github.com/dscalzi/ElectronLauncher/releases) tab, select the installer for your system.
 
-[![discord](https://discordapp.com/api/guilds/421839473568120843/embed.png?style=banner2)][discord]
-
-[discord]: https://discord.gg/gmcMRRk 'Discord'
-
 # Modification Credits
 Foga: [GitHub][foga2h] | [Launcher][thecombocrewlauncher]
 
