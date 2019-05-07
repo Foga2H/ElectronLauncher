@@ -49,7 +49,7 @@ if(!isDev){
                 loggerAutoUpdaterSuccess.log('New update available', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/dscalzi/ElectronLauncher/releases/download/v${info.version}/electronlauncher-${info.version}.dmg`
+                    info.darwindownload = `https://github.com/Foga2H/TheComboCrewLauncher/releases/download/v${info.version}/combocrewlauncher-${info.version}.dmg`
                     showUpdateUI(info)
                 }
                 
