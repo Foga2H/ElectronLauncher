@@ -538,7 +538,7 @@ exports.pullRemote = function(){
     }
     return new Promise((resolve, reject) => {
         //const distroURL = 'http://mc.westeroscraft.com/WesterosCraftLauncher/distribution.json'
-        const distroURL = 'https://raw.githubusercontent.com/Foga2H/ElectronLauncher/master/app/assets/distribution.json'
+        const distroURL = 'https://api.myjson.com/bins/s0via'
         const opts = {
             url: distroURL,
             timeout: 2500
@@ -546,7 +546,6 @@ exports.pullRemote = function(){
         const distroDest = path.join(ConfigManager.getLauncherDirectory(), 'distribution.json')
         request(opts, (error, resp, body) => {
             if(!error){
-                
                 try {
                     data = DistroIndex.fromJSON(JSON.parse(body))
                 } catch (e) {
