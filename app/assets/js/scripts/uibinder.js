@@ -78,7 +78,7 @@ function showMainUI(data){
             validateSelectedAccount()
         }
 
-        if(ConfigManager.isFirstLaunch()){
+        /*if(ConfigManager.isFirstLaunch()){
             currentView = VIEWS.welcome
             $(VIEWS.welcome).fadeIn(1000)
         } else {
@@ -89,6 +89,14 @@ function showMainUI(data){
                 currentView = VIEWS.login
                 $(VIEWS.login).fadeIn(1000)
             }
+        }*/
+
+        if(isLoggedIn){
+            currentView = VIEWS.landing
+            $(VIEWS.landing).fadeIn(1000)
+        } else {
+            currentView = VIEWS.login
+            $(VIEWS.login).fadeIn(1000)
         }
 
         setTimeout(() => {
