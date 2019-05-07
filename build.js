@@ -33,8 +33,7 @@ builder.build({
                     arch: 'x64'
                 }
             ],
-            icon: 'build/icon.ico',
-            publish: ['github']
+            icon: 'build/icon.ico'
         },
         nsis: {
             oneClick: false,
@@ -47,8 +46,7 @@ builder.build({
         mac: {
             target: 'dmg',
             category: 'public.app-category.games',
-            icon: 'build/icon.icns',
-            publish: ['github']
+            icon: 'build/icon.icns'
         },
         linux: {
             target: 'AppImage',
@@ -56,8 +54,7 @@ builder.build({
             vendor: 'Daniel Scalzi',
             synopsis: 'Modded Minecraft Launcher',
             description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.',
-            category: 'Game',
-            publish: ['github']
+            category: 'Game'
         },
         compression: 'maximum',
         files: [

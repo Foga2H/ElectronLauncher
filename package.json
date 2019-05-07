@@ -1,13 +1,13 @@
 {
   "name": "electronlauncher",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "productName": "Electron Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/Foga2H/TheComboCrewLauncher",
   "bugs": {
-    "url": "https://github.com/dscalzi/ElectronLauncher/issues"
+    "url": "https://github.com/Foga2H/TheComboCrewLauncher/issues"
   },
   "private": true,
   "main": "index.js",

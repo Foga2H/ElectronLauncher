@@ -18,7 +18,7 @@ function initAutoUpdater(event, data) {
         // Defaults to true if application version contains prerelease components (e.g. 0.12.1-alpha.1)
         // autoUpdater.allowPrerelease = true
     }
-    
+
     if(isDev){
         autoUpdater.autoInstallOnAppQuit = false
         autoUpdater.updateConfigPath = path.join(__dirname, 'dev-app-update.yml')
@@ -52,6 +52,7 @@ ipcMain.on('autoUpdateAction', (event, arg, data) => {
             event.sender.send('autoUpdateNotification', 'ready')
             break
         case 'checkForUpdate':
+            console.log(autoUpdater.getFeedURL());
             autoUpdater.checkForUpdates()
                 .catch(err => {
                     event.sender.send('autoUpdateNotification', 'realerror', err)
