@@ -1,7 +1,7 @@
 {
-  "name": "electronlauncher",
-  "version": "1.6.3",
-  "productName": "Electron Launcher",
+  "name": "combocrewlauncher",
+  "version": "1.6.0",
+  "productName": "The Combo Crew Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
