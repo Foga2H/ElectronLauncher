@@ -3573,6 +3573,10 @@ input:checked + .toggleSwitchSlider:before {
     width: 50px;
 }
 
+.serverListingImg.no-border {
+    border: none;
+}
+
 /* Content container for the server listing's details. */
 .serverListingDetails {
     display: flex;

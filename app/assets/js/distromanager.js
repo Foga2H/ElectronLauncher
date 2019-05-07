@@ -538,7 +538,7 @@ exports.pullRemote = function(){
     }
     return new Promise((resolve, reject) => {
         //const distroURL = 'http://mc.westeroscraft.com/WesterosCraftLauncher/distribution.json'
-        const distroURL = 'https://api.myjson.com/bins/7zg22'
+        const distroURL = 'http://crew.foga.space/files/minecraft/1.12.2/distribution.json'
         const opts = {
             url: distroURL,
             timeout: 2500

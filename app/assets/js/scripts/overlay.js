@@ -268,7 +268,7 @@ function populateServerListings(){
     let htmlString = ''
     for(const serv of servers){
         htmlString += `<button class="serverListing" servid="${serv.getID()}" ${serv.getID() === giaSel ? 'selected' : ''}>
-            <img class="serverListingImg" src="${serv.getIcon()}"/>
+            <img class="serverListingImg no-border" src="${serv.getIcon()}"/>
             <div class="serverListingDetails">
                 <span class="serverListingName">${serv.getName()}</span>
                 <span class="serverListingDescription">${serv.getDescription()}</span>

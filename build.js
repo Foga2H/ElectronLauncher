@@ -33,20 +33,20 @@ builder.build({
                     arch: 'x64'
                 }
             ],
-            icon: 'build/icon.ico'
+            icon: 'build/desktop.ico'
         },
         nsis: {
             oneClick: false,
             perMachine: true,
             allowElevation: true,
-            installerIcon: 'build/icon.ico',
-            uninstallerIcon: 'build/icon.ico',
+            installerIcon: 'build/desktop.ico',
+            uninstallerIcon: 'build/desktop.ico',
             allowToChangeInstallationDirectory: true
         },
         mac: {
             target: 'dmg',
             category: 'public.app-category.games',
-            icon: 'build/icon.icns'
+            icon: 'build/desktop.ico'
         },
         linux: {
             target: 'AppImage',
