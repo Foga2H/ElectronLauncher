@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.0",
     "discord": {
         "clientId": "385581240906022916",
         "smallImageText": "WesterosCraft",
@@ -15,7 +15,7 @@
             "name": "The Combo Crew Server",
             "description": "The official-unofficial server of the Combo Crew",
             "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
-            "version": "1.0.1",
+            "version": "1.0.0",
             "address": "crew.foga.space",
             "minecraftVersion": "1.12.2",
             "discord": {

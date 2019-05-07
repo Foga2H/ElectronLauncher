@@ -1,6 +1,6 @@
 {
   "name": "electronlauncher",
-  "version": "1.6.1-alpha",
+  "version": "1.6.1",
   "productName": "Electron Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
