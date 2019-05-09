@@ -763,16 +763,6 @@
                     }
                 },
                 {
-                    "id": "net.industrial:twilightforest:1.12.2-3.8.689",
-                    "name": "TwilightForest",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 7296016,
-                        "MD5": "d9a9e3e5dd851f5cbb50b72aab5e6037",
-                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/twilightforest-1.12.2-3.8.689-universal.jar"
-                    }
-                },
-                {
                     "id": "net.industrial:CTM-MC:1.12.2-0.3.3.22",
                     "name": "ConnectedTextures",
                     "type": "ForgeMod",
@@ -1943,6 +1933,69 @@
                         "size": 126699,
                         "MD5": "0018d8de31b05dc44c80a25d73fde15b",
                         "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/Cucumber-1.12.2-1.1.3.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:Better-Builder's-Wands:0.11.1",
+                    "name": "BetterBuildersWands",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 75709,
+                        "MD5": "64763e14d31cdc21cedd4c4e85fbec73",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/BetterBuildersWands-1.12-0.11.1.245%2B69d0d70.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:FastLeafDecay-v14",
+                    "name": "FastLeafDecay",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 5200,
+                        "MD5": "18096ffb7f58d94f8e5a7bf2ff160f0f",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/FastLeafDecay-v14.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:ChestTransporter:1.12.2-2.8.8",
+                    "name": "ChestTransporter",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 314060,
+                        "MD5": "6f5aadb16a4357aad4b8bc662b76de77",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ChestTransporter-1.12.2-2.8.8.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:SmoothFont:mc1.12.2-1.16.2",
+                    "name": "SmoothFont",
+                    "required": {
+                        "value": false
+                    },
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 234311,
+                        "MD5": "7acfe18951bf0da7ea8fb64e6f48ff8f",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/SmoothFont-mc1.12.2-1.16.2.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:Avaritia:1.12.2-3.3.0.33",
+                    "name": "Avaritia",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 972581,
+                        "MD5": "8eedd678495a7ce0958c026a7873fc62",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/Avaritia-1.12.2-3.3.0.33-universal.jar"
+                    }
+                },
+                {
+                    "id": "net.industrial:woot:1.12.2-1.4.10",
+                    "name": "WOOT",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 880001,
+                        "MD5": "127999ba1124ace82f18159cdc7c52f1",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/woot-1.12.2-1.4.10.jar"
                     }
                 }
             ]
