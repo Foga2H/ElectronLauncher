@@ -2037,6 +2037,16 @@
                         "MD5": "7980ac61839fa0dfd364e39ac6f63da0",
                         "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/ProjectIntelligence-1.12.2-1.0.5.21-universal.jar"
                     }
+                },
+                {
+                    "id": "net.industrial:infinitylib:1.12.0",
+                    "name": "infinitylib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 858298,
+                        "MD5": "0478972396cd370d057573da29d25982",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/infinitylib-1.12.0.jar"
+                    }
                 }
             ]
         }
