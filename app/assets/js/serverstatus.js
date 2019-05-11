@@ -63,3 +63,52 @@ exports.getStatus = function(address, port = 25565){
     })
 
 }
+
+/**
+ * Retrieves the status of a minecraft server via {api.mcsrvstat.us} service.
+ * 
+ * @param {string} address The server address.
+ * @param {number} port Optional. The port of the server. Defaults to 25565.
+ * @returns {Promise.<Object>} A promise which resolves to an object containing
+ * status information.
+ */
+exports.getJSONStatus = function(address, port) {
+    if(port == null || port == ''){
+        port = 25565
+    }
+
+    if(typeof port === 'string'){
+        port = parseInt(port)
+    }
+
+    const serverStatusURL = 'https://api.mcsrvstat.us/2/' + address;
+
+    return new Promise((resolve, reject) => {
+        $.ajax(
+            {
+                url: serverStatusURL,
+                success: (data) => {
+                    if (data.online) {
+                        resolve({
+                            online: true,
+                            version: data.version,
+                            motd: data.motd.clean,
+                            onlinePlayers: data.players.online,
+                            maxPlayers: data.players.max,
+                            listPlayers: data.players.list
+                        })
+                    } else {
+                        resolve({
+                            online: false
+                        })
+                    }
+                },
+                timeout: 2500
+            }
+        ).catch(err => {
+            resolve({
+                online: false
+            })
+        })
+    })
+}

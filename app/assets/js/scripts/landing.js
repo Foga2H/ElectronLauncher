@@ -225,10 +225,25 @@ const refreshServerStatus = async function(fade = false){
 
     try {
         const serverURL = new URL('my://' + serv.getAddress())
-        const servStat = await ServerStatus.getStatus(serverURL.hostname, serverURL.port)
+        const servStat = await ServerStatus.getJSONStatus(serverURL.hostname, serverURL.port)
         if(servStat.online){
             pLabel = 'PLAYERS'
             pVal = servStat.onlinePlayers + '/' + servStat.maxPlayers
+        }
+
+        if(servStat.listPlayers) {
+            let listPlayersHTML = '';
+            for(let i = 0;i < servStat.listPlayers.length; i++) {
+                listPlayersHTML += `<div class="mojangStatusContainer">
+                    <span class="mojangStatusIcon" style="color: #a5c325">&#8226;</span>
+                    <span class="mojangStatusName">${servStat.listPlayers[i]}</span>
+                </div>`
+            }
+            document.getElementById('serverStatusPlayersContainer').innerHTML = listPlayersHTML
+
+            if (servStat.listPlayers.length) {
+                document.getElementById('server_status_wrapper').classList.remove('offline')
+            }
         }
 
     } catch (err) {
@@ -270,6 +285,23 @@ function showLaunchFailure(title, desc){
     setOverlayHandler(null)
     toggleOverlay(true)
     toggleLaunchArea(false)
+}
+
+/**
+ * Shows an info overlay message.
+ * 
+ * @param {string} title The overlay title.
+ * @param {string} desc The overlay description.
+ * @param {string} btnText The button text.
+ */
+function showInfoMessage() {
+    setOverlayContent(
+        title,
+        desc,
+        btnText
+    )
+    setOverlayHandler(null)
+    toggleOverlay(true)
 }
 
 /* System (Java) Scan */
