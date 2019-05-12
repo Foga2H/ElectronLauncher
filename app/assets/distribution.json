@@ -2009,6 +2009,17 @@
                     }
                 },
                 {
+                    "id": "net.industrial:AgriCraft-config:2019-05-12",
+                    "name": "AgriCraft Config",
+                    "type": "File",
+                    "artifact": {
+                        "size": 6468,
+                        "MD5": "907fcf470b87d539501a014d6ef0fab2",
+                        "path": "config/agricraft/config.cfg",
+                        "url": "http://crew.foga.space/files/minecraft/1.12.2/mods/config/agricraft/config.cfg"
+                    }
+                },
+                {
                     "id": "net.industrial:ExtraCells:1.12.2-2.6.2",
                     "name": "ExtraCells",
                     "type": "ForgeMod",
